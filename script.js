@@ -58,7 +58,7 @@ function handleDefaultCommands(transcript) {
     } else if (transcript.includes('your name')) {
         speak('My name is Zerox, your forever lover.');
         statusElement.textContent = 'Zerox: My name is Zerox, your voice assistant.';
-    } else if (transcript.includes('hi')) {
+    } else if (transcript.includes('well')) {
         playCustomAudio('i-love-you.mp3'); // Replace with the actual file name
     } else {
         speak('Sorry darling, I did not understand the command. Please try again.');
